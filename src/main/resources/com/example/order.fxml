@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.laba9fx.Order"
+      spacing="10">
+    <padding>
+        <Insets top="10.0" right="10.0" bottom="10.0" left="10.0"/>
+    </padding>
+    <VBox fx:id="orderItemsContainer" spacing="10"/>
+    <TextArea fx:id="orderSummary" editable="false" wrapText="true" prefHeight="200"/>
+</VBox>
